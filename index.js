@@ -24,7 +24,7 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'What are the installation instructions?',
+        message: 'How can the user do the Installation?',
         name: 'installation',
     },
     {
@@ -75,7 +75,7 @@ function init() {
         .prompt(questions)
         .then((responses) => {
             const markdownContent = generateMarkdown(responses);
-            writeToFile('./utils/README.md', markdownContent);
+            writeToFile('./utils/generateREADME.md', markdownContent);
         })
         .catch((error) => {
             console.error('Error in prompting questions', error);

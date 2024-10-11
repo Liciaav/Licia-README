@@ -1,24 +1,24 @@
-# jwugcbkj
+# README generate
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Title
-jwugcbkj
+README generate
 
 ## Description
-kajwbdk
+command line aplicartion to make a README.
 
 ## Installation
-lkqjwbj
+npm i
 
 ## Usage
-qkjwdb
+node index.js
 
 ## Contributing
-qkwjbdjk
+fork the repo.
 
 ## Test
-lqwjdbjk
+
 
 ##License
 ## License
