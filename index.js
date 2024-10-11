@@ -17,6 +17,12 @@ const questions = [
         name: 'description',
     },
     {
+        type: 'list',
+        message: 'Provide a table of contents.',
+        name: 'table of contents',
+        choices: ['installation', 'usage', 'contribution', 'test', 'license', 'questions'],
+    },
+    {
         type: 'input',
         message: 'What are the installation instructions?',
         name: 'installation',
@@ -33,30 +39,28 @@ const questions = [
     },
     {
         type: 'input',
-        message: '',
+        message: 'Extra informations.',
         name: 'test'
     },
     {
-        type: 'input',
+        type: 'list',
         message: 'What is the license for your project?',
         name: 'license',
+        choices: ['MIT', 'Apache 2.0', 'GNU AGPLv3','None'],
     },
     {
         type: 'input',
-        message: '',
+        message: 'Frequent questions.',
         name: 'questions'
     },
-    {
-        type: 'input',
-        message: 'Provide a table of contents.',
-        name: 'table of contents',
-    },
+    
    
 ];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeToFile(README.md, data, (err) => {
+  
+    fs.writeFile(fileName, data, (err) => {
         if(err) {
             console.log.error('Error writing to file', err);
             return;
@@ -71,7 +75,7 @@ function init() {
         .prompt(questions)
         .then((responses) => {
             const markdownContent = generateMarkdown(responses);
-            writeToFile('README.md', markdownContent);
+            writeToFile('./utils/README.md', markdownContent);
         })
         .catch((error) => {
             console.error('Error in prompting questions', error);
