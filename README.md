@@ -16,7 +16,7 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 ## Installation
 To set up the Rental Car Website and App locally, follow these steps:
 - Clone the repository:
-git clone https://github.com/yourusername/rental-car.git
+git clone https://github.com/Liciaav/Licia-README.git
 - Navigate to the project directory:
 cd rental-car
 - Install dependencies:
@@ -28,7 +28,7 @@ npm start
 
 ## Usage
 To use the Rental Car Website and App, follow these steps:
-Visit the website at [insert website link] or download the app from [insert app store links].
+Visit the website at [https://github.com/Liciaav/Licia-README.git or download the app from [git@github.com:Liciaav/Licia-README.git].
 Create an account or log in.
 Enter your desired pickup location, dates, and vehicle preferences.
 Browse the available options and compare prices.
@@ -48,4 +48,4 @@ npm test
 Ensure all tests pass before submitting a pull request. If you discover any issues, please create an issue in the repository.
 
 ## Questions
-For any inquiries or support, please contact us at [your-email@example.com] or visit our support page at [insert support link]. We appreciate your feedback and suggestions!
+For any inquiries or support, please contact us at [liciaav@gmail.com] or visit our support page at [Liciaav@github.com]. We appreciate your feedback and suggestions!
