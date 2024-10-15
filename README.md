@@ -10,15 +10,13 @@ command line aplicartion to make a README.
 
 ## Installation
 npm i
-
-## Usage
 node index.js
 
 ## Contributing
 fork the repo.
 
 ## Test
-
+link:"https://drive.google.com/file/d/1Kz_1voK8z5UL1vH56y-BojZMj9GgkzM0/view"
 
 ##License
 ## License
